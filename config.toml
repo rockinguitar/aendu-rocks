@@ -1,7 +1,7 @@
-base_url = "https://YOUR_URL.TLD"
-title = "site title"
-description = "YOUR_SITE_DESCRIPTION"
-author = "YOUR_NAME"
+base_url = "https://aendu.rocks"
+title = "Aendu rocks"
+description = "Aendu rocks is a blog by André Wittwer about traveling, photography, music, cooking and mixing cocktails."
+author = "André Wittwer"
 theme = "tabi"
 generate_feeds = true
 compile_sass = true
@@ -34,6 +34,8 @@ bottom_footnotes = true
 # To use a Zola built-in theme, CSP needs to allow unsafe-inline for style-src.
 highlight_theme = "css"
 smart_punctuation = true
+external_links_target_blank = true
+external_links_class = "external"
 
 
 [extra]
@@ -53,11 +55,11 @@ override_serif_with_sans = false
 
 # Enable JavaScript theme toggler to allow users to switch between dark/light mode.
 # If disabled, your site will use the theme specified in the `default_theme` variable.
-theme_switcher = true
+theme_switcher = false
 
 # This setting determines the default theme on load ("light" or "dark").
 # To follow the user's OS theme, leave it empty or unset.
-default_theme = ""
+default_theme = "dark"
 
 # Choose the colourscheme (skin) for the theme. Default is "teal".
 # Skin available: blue, lavender, mint, red, sakura, teal, monochrome, lowcontrast_orange, lowcontrast_peach, lowcontrast_pink, indigo_ingot, evangelion
@@ -66,7 +68,7 @@ default_theme = ""
 # contrast (in light theme) for readability and might not be suitable for all users.
 # Furthermore, low contrasting elements will affect your Google Lighthouse rating.
 # All other skins have optimal contrast.
-skin = ""
+skin = "aendu"
 
 # Set browser theme colour. Can be a single colour or [light, dark].
 # Note: Bright colors may be ignored in dark mode.
@@ -84,12 +86,12 @@ stylesheets = []
 # Individual pages can override this in the [extra] section using canonical_url.
 # Example: "$base_url/blog/post1" will get the canonical URL "https://example.com/blog/post1".
 # Note: To ensure accuracy in terms of matching content, consider setting 'canonical_url' individually per page.
-# base_canonical_url = "https://example.com"
+base_canonical_url = "https://aendu.rocks"
 
 # Remote repository for your Zola site.
 # Used for `show_remote_changes` and `show_remote_source` (see below).
 # Supports GitHub, GitLab, Gitea, and Codeberg.
-# remote_repository_url = "https://github.com/welpo/tabi"
+remote_repository_url = "https://github.com/rockinguitar/aendu-rocks"
 # Set this to "auto" to try and auto-detect the platform based on the repository URL.
 # Accepted values are "github", "gitlab", "gitea", and "codeberg".
 remote_repository_git_platform = "auto"  # Defaults to "auto".
@@ -120,7 +122,7 @@ show_author = false
 
 # Show the reading time of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_reading_time = true
+show_reading_time = false
 
 # Show the date of a page below its title.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -155,7 +157,7 @@ katex = false
 # Enable Mermaid diagrams for all posts.
 # Loads ~2.5MB of JavaScript.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-mermaid = false
+mermaid = true
 
 # Serve Mermaid JavaScript locally. Version bundled with tabi.
 # If set to false, it will load the latest version from JSDelivr.
@@ -164,7 +166,7 @@ serve_local_mermaid = true
 
 # Show links to previous and next articles at the bottom of posts.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_previous_next_article_links = false
+show_previous_next_article_links = true
 
 # Invert order of the links to previous and next articles at the bottom of posts.
 # By default, next articles are on the left side of the page and previous articles are on the right side.
@@ -187,14 +189,13 @@ quick_navigation_buttons = true
 
 # Date format used when listing posts (main page, /blog section, tag posts list…)
 # Default is "6th July 2049" in English and "%d %B %Y" in other languages.
-# long_date_format = "%d %B %Y"
+long_date_format = "%A, %d %B %Y"
 
 # Date format used for blog posts.
 # Default is "6th July 2049" in English and "%-d %B %Y" in other languages.
-short_date_format = ""
-
+short_date_format = "%d.%m.%Y"
 # Custom separator used in title tag and posts metadata (between date, time to read, and tags).
-separator = "•"
+separator = "✧"
 
 # Use a shorter layout for All tags listing.
 # Default: tag_name – n post[s]
@@ -217,7 +218,7 @@ enable_cards_tag_filtering = true
 invert_title_order = false
 
 # Full path after the base URL required. So if you were to place it in "static" it would be "/favicon.ico"
-# favicon = ""
+favicon = "img/aendu-avatar-favicon.ico"
 
 # Add an emoji here to use it as favicon.
 # Compatibility: https://caniuse.com/link-icon-svg
@@ -230,15 +231,15 @@ invert_title_order = false
 # social_media_card = ""
 
 menu = [
-    { name = "blog", url = "blog", trailing_slash = true },
-    { name = "archive", url = "archive", trailing_slash = true },
-    { name = "tags", url = "tags", trailing_slash = true },
-    { name = "projects", url = "projects", trailing_slash = true },
+    { name = "Who I am", url = "about", trailing_slash = true },
+    { name = "Blog", url = "blog", trailing_slash = true },
+    { name = "Gallery", url = "https://gallery.aendu.rocks", trailing_slash = false, external = true },
+    { name = "Tags", url = "tags", trailing_slash = true },
 ]
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
 # Note for Zola 0.19.X users: when `feed_filenames` has two filenames, only the first one will be linked in the footer.
-feed_icon = true
+feed_icon = false
 
 # Show the full post content in the Atom feed.
 # If it's set to false, only the description or summary will be shown.
@@ -255,13 +256,13 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 # Social media links for the footer.
 # Built-in icons: https://github.com/welpo/tabi/tree/main/static/social_icons
 # To use a custom icon, add it to your site's `static/social_icons` directory.
-# socials = [
-#     { name = "github", url = "https://github.com/welpo/", icon = "github" },
-#     { name = "soundcloud", url = "https://soundcloud.com/oskerwyld", icon = "soundcloud" },
-#     { name = "instagram", url = "https://instagram.com/oskerwyld", icon = "instagram" },
-#     { name = "youtube", url = "https://youtube.com/@oskerwyld", icon = "youtube" },
-#     { name = "spotify", url = "https://open.spotify.com/artist/5Hv2bYBhMp1lUHFri06xkE", icon = "spotify" },
-# ]
+socials = [
+    { name = "email", url = "mailto:andre.wittwer@gmail.com", icon = "email" },
+    { name = "github", url = "https://github.com/rockinguitar", icon = "github" },
+    { name = "bluesky", url = "https://bsky.app/profile/aendu.rocks", icon = "bluesky" },
+    { name = "instagram", url = "https://instagram.com/rockinguitar", icon = "instagram" },
+    { name = "youtube", url = "https://www.youtube.com/@rockinguitar.66 ", icon = "youtube" },
+]
 
 # Fediverse profile.
 # Adds metadata to feature the author's profile in Mastodon link previews.
@@ -282,7 +283,7 @@ encode_plaintext_email = true  # Setting is ignored if email is already encoded.
 # $AUTHOR will be replaced by the `author` variable.
 # $SEPARATOR will be replaced by the `separator` variable.
 # Markdown is supported (links, emphasis, etc).
-# copyright = "$TITLE © $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
+copyright = "© $CURRENT_YEAR $AUTHOR $SEPARATOR Unless otherwise noted, the content in this website is available under the [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license."
 
 # For multi-language sites, you can set a different copyright for each language.
 # The old way of setting `translated_copyright = true` and using i18n files is deprecated.
