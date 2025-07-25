@@ -1,5 +1,5 @@
 base_url = "https://aendu.rocks"
-title = "aendu.rocks"
+title = "Aendu on the Rocks"
 description = "aendu.rocks is a blog by André Wittwer about traveling, photography, music, cooking and mixing cocktails."
 author = "André Wittwer"
 theme = "tabi"
@@ -157,7 +157,7 @@ katex = false
 # Enable Mermaid diagrams for all posts.
 # Loads ~2.5MB of JavaScript.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-mermaid = true
+mermaid = false
 
 # Serve Mermaid JavaScript locally. Version bundled with tabi.
 # If set to false, it will load the latest version from JSDelivr.
