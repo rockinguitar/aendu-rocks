@@ -18,9 +18,7 @@ Sitting at home and reading on the balcony? After months of remote work and star
 
 Lindesnes isn’t the name of a town, but a municipality in Agder County, at the southernmost tip of mainland Norway. It’s about 400 km from Oslo, making it an easy day’s drive by car.
 
-{{ smugmug(key="b5SgwN", width="800", height="600") }}
-
----
+{{ smugmug(key="b5SgwN", caption="Click to view the Lindesnes photo gallery" thumbnail="https://photos.smugmug.com/Northern-Europe/Lindesnes/i-qNsCRH7/0/NPZJMgvZnhWWkL2rNvTg6r4Q6Sk63pSW8dkBqNZM4/M/IMG-20200723-WA0012-M.jpg", alt="Lindesnes coast") }}
 
 ## Spangereid: Seaside Charm and Cold Waters
 

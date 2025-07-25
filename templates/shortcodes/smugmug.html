@@ -1,2 +1,14 @@
-<div {% if class %}class="{{class}}"{% endif %}>
-    <iframe src="https://gallery.aendu.rocks/frame/slideshow?key={{key}}&speed=3&transition=fade&autoStart=0&captions=1&navigation=1&playButton=1&randomize=0&transitionSpeed=2" width="{{width}}" height="{{height}}" frameborder="no" scrolling="no"></iframe></div>  
+<figure style="position: relative; display: inline-block; margin: 1.5em 0;">
+    <a href="https://gallery.aendu.rocks/frame/slideshow?key={{ key | safe }}&speed=3&transition=fade&autoStart=1&captions=1&navigation=1&playButton=1&randomize=0&transitionSpeed=2"
+    aria-label="{{caption}}"    
+    target="_blank" rel="noopener" style="display: block; position: relative;">
+        <img src="{{ thumbnail | safe }}" alt="{{ alt | default(value='Gallery preview') }}"
+            style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); display: block;" />
+        <div class="gallery-figure">
+            ▶
+        </div>
+    </a>
+    {% if caption %}
+    <figcaption style="margin-top: 0.5em; font-size: 0.9em; color: #666; text-align: center;">{{ caption }}</figcaption>
+    {% endif %}
+</figure>
