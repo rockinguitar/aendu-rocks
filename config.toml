@@ -1,7 +1,7 @@
-base_url = "https://YOUR_URL.TLD"
-title = "site title"
-description = "YOUR_SITE_DESCRIPTION"
-author = "YOUR_NAME"
+base_url = "https:aendu.rocks"
+title = "Aendu on the rocks"
+description = "Aendu rocks is a blog by André Wittwer about traveling, photography, music, cooking and mixing cocktails."
+author = "André Wittwer"
 theme = "tabi"
 generate_feeds = true
 compile_sass = true
@@ -66,7 +66,7 @@ default_theme = ""
 # contrast (in light theme) for readability and might not be suitable for all users.
 # Furthermore, low contrasting elements will affect your Google Lighthouse rating.
 # All other skins have optimal contrast.
-skin = ""
+skin = "evangelion"
 
 # Set browser theme colour. Can be a single colour or [light, dark].
 # Note: Bright colors may be ignored in dark mode.
@@ -116,7 +116,7 @@ force_codeblock_ltr = true
 
 # Show the author(s) of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_author = false
+show_author = true
 
 # Show the reading time of a page.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -155,7 +155,7 @@ katex = false
 # Enable Mermaid diagrams for all posts.
 # Loads ~2.5MB of JavaScript.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-mermaid = false
+mermaid = true
 
 # Serve Mermaid JavaScript locally. Version bundled with tabi.
 # If set to false, it will load the latest version from JSDelivr.
@@ -231,7 +231,6 @@ invert_title_order = false
 
 menu = [
     { name = "blog", url = "blog", trailing_slash = true },
-    { name = "archive", url = "archive", trailing_slash = true },
     { name = "tags", url = "tags", trailing_slash = true },
     { name = "projects", url = "projects", trailing_slash = true },
 ]
