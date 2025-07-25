@@ -16,7 +16,9 @@ jobs:
         with:
           submodules: true
 
-      - name: Zola Build
-        uses: shalzz/zola-deploy-action@v0.19.2
-        env:
-          BUILD_ONLY: true
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.21.0
+
+      - name: Build Zola site
+        run: zola build
