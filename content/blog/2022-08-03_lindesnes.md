@@ -20,8 +20,6 @@ Lindesnes isn’t the name of a town, but a municipality in Agder County, at the
 
 {{ smugmug(key="b5SgwN", caption="Click to view the Lindesnes photo gallery" thumbnail="https://photos.smugmug.com/Northern-Europe/Lindesnes/i-qNsCRH7/0/NPZJMgvZnhWWkL2rNvTg6r4Q6Sk63pSW8dkBqNZM4/M/IMG-20200723-WA0012-M.jpg", alt="Lindesnes coast") }}
 
----
-
 ## Spangereid: Seaside Charm and Cold Waters
 
 Spangereid is a beautiful coastal village with colorful flowers, sandy beaches, and cozy seaside cabins. Unfortunately, the sea was far too cold for my liking, so I skipped the swim. Instead, we enjoyed a relaxing stay at our friend Ingrid’s lovely cabin.
