@@ -3,6 +3,7 @@ title = "Hello World Project"
 description = "A simple demo project showcasing tabi's project features"
 weight = 1
 template = "page.html"
+draft = true
 
 [taxonomies]
 tags = ["meta"]
