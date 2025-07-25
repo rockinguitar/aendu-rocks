@@ -1,9 +1,21 @@
-<figure>
+<figure style="position: relative; display: inline-block; margin: 1.5em 0;">
     <a href="https://gallery.aendu.rocks/frame/slideshow?key={{ key | safe }}&speed=3&transition=fade&autoStart=1&captions=1&navigation=1&playButton=1&randomize=0&transitionSpeed=2"
-        target="_blank" rel="noopener">
-        <img src="{{ thumbnail | default(value=" https://gallery.aendu.rocks/your-default-thumbnail.jpg") | safe }}"
-            alt="View the Lindesnes Gallery"
-            style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);" />
+        target="_blank" rel="noopener" style="display: block; position: relative;">
+        <img src="{{ thumbnail | safe }}" alt="{{ alt | default(value='Gallery preview') }}"
+            style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2); display: block;" />
+        <div style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 3em;
+      color: white;
+      text-shadow: 0 0 10px black;
+      pointer-events: none;">
+            ▶
+        </div>
     </a>
-    <figcaption>{{caption}}</figcaption>
+    {% if caption %}
+    <figcaption style="margin-top: 0.5em; font-size: 0.9em; color: #666; text-align: center;">{{ caption }}</figcaption>
+    {% endif %}
 </figure>
