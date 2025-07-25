@@ -18,6 +18,8 @@ Sitting at home and reading on the balcony? After months of remote work and star
 
 Lindesnes isn’t the name of a town, but a municipality in Agder County, at the southernmost tip of mainland Norway. It’s about 400 km from Oslo, making it an easy day’s drive by car.
 
+{{ smugmug(key="b5SgwN", width="800", height="600") }}
+
 ---
 
 ## Spangereid: Seaside Charm and Cold Waters
@@ -31,6 +33,8 @@ Spangereid has gained attention in recent years thanks to *Under* – Europe’s
 ### Cracking Crabs in the Garden
 
 One highlight of the trip was a crab lunch hosted by Ingrid’s parents. It was my first time cleaning crabs, and I loved the rustic tools we used – a wooden board and a handy stone. Just be careful not to crush your fingers! A crab picker is essential for getting the meat out of the legs. Clearly, I need more practice to master the technique.
+
+{{ youtube(id="AHnlpOGfBnk") }}
 
 ---
 
@@ -47,4 +51,3 @@ Thankfully, the town's bakery more than made up for it with delicious pastries a
 At the very tip of Norway sits **Lindesnes fyr**, the country's oldest lighthouse. It’s a dramatic place where the land ends and the sea begins. Bunker tunnels weave beneath the rocky terrain, hinting at a storied past.
 
 We were lucky with the weather—clear skies gave us breathtaking views over the ocean and rugged landscape. But honestly, I’d recommend visiting in any weather. Experiencing crashing waves, howling wind, and stormy skies from the cliffs must be unforgettable.
-
