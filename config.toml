@@ -1,6 +1,6 @@
 base_url = "https://aendu.rocks"
-title = "Aendu rocks"
-description = "Aendu rocks is a blog by André Wittwer about traveling, photography, music, cooking and mixing cocktails."
+title = "aendu.rocks"
+description = "aendu.rocks is a blog by André Wittwer about traveling, photography, music, cooking and mixing cocktails."
 author = "André Wittwer"
 theme = "tabi"
 generate_feeds = true
