@@ -1,2 +1,9 @@
-<div {% if class %}class="{{class}}"{% endif %}>
-    <iframe src="https://gallery.aendu.rocks/frame/slideshow?key={{key}}&speed=3&transition=fade&autoStart=0&captions=1&navigation=1&playButton=1&randomize=0&transitionSpeed=2" width="{{width}}" height="{{height}}" frameborder="no" scrolling="no"></iframe></div>  
+<figure>
+    <a href="https://gallery.aendu.rocks/frame/slideshow?key={{ key | safe }}&speed=3&transition=fade&autoStart=1&captions=1&navigation=1&playButton=1&randomize=0&transitionSpeed=2"
+        target="_blank" rel="noopener">
+        <img src="{{ thumbnail | default(value=" https://gallery.aendu.rocks/your-default-thumbnail.jpg") | safe }}"
+            alt="View the Lindesnes Gallery"
+            style="max-width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.2);" />
+    </a>
+    <figcaption>{{caption}}</figcaption>
+</figure>
