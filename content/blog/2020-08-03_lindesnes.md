@@ -5,7 +5,7 @@ date = "2020-08-03"
 updated = "2025-07-25"
 
 [taxonomies]
-tags = ["norway", "lindesnes"]
+tags = ["norway", "lindesnes", "holiday"]
 +++
 
 The summer of 2020 was supposed to be spent with friends in Switzerland. But as the pandemic tightened its grip, international travel quickly was impossible.
