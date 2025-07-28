@@ -68,7 +68,6 @@
 }
 
 .floated-image {
-  overflow: auto;
   margin-bottom: 1em;
 
   &.float-left {
@@ -81,9 +80,17 @@
     margin: 0 0 1em 1em;
   }
 
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
   @media (max-width: 600px) {
+    float: none !important;
+    margin: 0 auto 1em auto !important;
+
     img {
-      float: none !important;
       margin: 0 auto 1em auto;
     }
   }
