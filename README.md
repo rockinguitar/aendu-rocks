@@ -13,7 +13,7 @@ This repository contains the source code for [aendu.rocks](https://aendu.rocks) 
 
 ## 🚀 Stack
 
-The site is built using the [Zola](https://www.getzola.org/) static site generator and the beautiful [Tabi theme](https://github.com/welpo/tabi), with a few custom tweaks. It’s published to the web via [Cloudflare Pages](https://pages.cloudflare.com/) and the source is version-controlled here on GitHub.
+The site is built using the [Zola](https://www.getzola.org/) static site generator and the beautiful [Tabi theme](https://github.com/welpo/tabi), with a few custom tweaks. It's published to the web via [Cloudflare Pages](https://pages.cloudflare.com/) and the source is version-controlled here on GitHub.
 
 
 ## 🛠️ Local Development
