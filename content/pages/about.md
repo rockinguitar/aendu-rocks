@@ -31,6 +31,16 @@ This blog is where I share the things I enjoy and care about.
 
 If you’re more into visuals than words, head over to my [SmugMug gallery](https://gallery.aendu.rocks) for a curated photo journey.
 
+## A few strong opinions
+
+I’m all for modern tech — but voice messages in chat? Absolute nightmare. They waste time, eat data, can’t be searched, and force everyone to listen instead of just quickly reading. They're often full of dead air, rambling, and “uhms” while people think out loud. And you can’t listen to them just anywhere — especially not in noisy surroundings or public spaces. It’s not communication — it’s thoughtless and annoying. Voice messages in chat are a sin. 😠
+
+Integrity matters deeply to me — both in work and life. Without it, trust crumbles, and nothing meaningful can really grow.
+
+I love my life in Oslo — it feels like home in all the right ways. Sure, the winters can be dark, cold, and a bit of a test of patience, but the city more than makes up for it with its charm, nature, and quality of life.
+
+And while I'm usually quite chill, I have little patience for rudeness, arrogance, or plain stupidity. Kindness, politeness, and being considerate of others go a long way.
+
 ## Love brought me North
 
 I never imagined moving to a different country — but then I met Ingunn in Helsinki. What started as a long-distance friendship slowly turned into something much more. 
