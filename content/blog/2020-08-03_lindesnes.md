@@ -1,6 +1,6 @@
 +++
 title = "Lindesnes – A Southern Escape in Norway"
-description = "A scenic 2020 summer road trip from Oslo to Norway’s southern tip — Spangereid, Mandal, and the Lindesnes lighthouse."
+description = "A scenic 2020 summer road trip from Oslo to Norway's southern tip — Spangereid, Mandal, and the Lindesnes lighthouse."
 date = "2020-08-03"
 updated = "2025-07-25"
 
@@ -10,27 +10,27 @@ tags = ["norway", "lindesnes"]
 
 The summer of 2020 was supposed to be spent with friends in Switzerland. But as the pandemic tightened its grip, international travel quickly was impossible.
 
-Sitting at home and reading on the balcony? After months of remote work and staring at the same four walls, that didn’t feel like much of a holiday. We craved fresh air, open roads, and new scenery. So, we packed the car and went on a road trip from Oslo to Norsjø, Nevlunghavn, Spangereid (in Lindesnes), and finally Stord.
+Sitting at home and reading on the balcony? After months of remote work and staring at the same four walls, that didn't feel like much of a holiday. We craved fresh air, open roads, and new scenery. So, we packed the car and went on a road trip from Oslo to Norsjø, Nevlunghavn, Spangereid (in Lindesnes), and finally Stord.
 
 ---
 
 ## What is Lindesnes?
 
-Lindesnes isn’t the name of a town, but a municipality in Agder County, at the southernmost tip of mainland Norway. It’s about 400 km from Oslo, making it an easy day’s drive by car.
+Lindesnes isn't the name of a town, but a municipality in Agder County, at the southernmost tip of mainland Norway. It's about 400 km from Oslo, making it an easy day's drive by car.
 
 {{ smugmug(key="b5SgwN", caption="Click to view the Lindesnes photo gallery" thumbnail="https://photos.smugmug.com/Northern-Europe/Lindesnes/i-qNsCRH7/0/NPZJMgvZnhWWkL2rNvTg6r4Q6Sk63pSW8dkBqNZM4/M/IMG-20200723-WA0012-M.jpg", alt="Lindesnes coast") }}
 
 ## Spangereid: Seaside Charm and Cold Waters
 
-Spangereid is a beautiful coastal village with colorful flowers, sandy beaches, and cozy seaside cabins. Unfortunately, the sea was far too cold for my liking, so I skipped the swim. Instead, we enjoyed a relaxing stay at our friend Ingrid’s lovely cabin.
+Spangereid is a beautiful coastal village with colorful flowers, sandy beaches, and cozy seaside cabins. Unfortunately, the sea was far too cold for my liking, so I skipped the swim. Instead, we enjoyed a relaxing stay at our friend Ingrid's lovely cabin.
 
 ### The Famous Underwater Restaurant
 
-Spangereid has gained attention in recent years thanks to *Under* – Europe’s first and largest underwater restaurant. We tried booking a table well in advance, but it was already fully booked. If you're hoping to dine there, plan several months ahead!
+Spangereid has gained attention in recent years thanks to *Under* – Europe's first and largest underwater restaurant. We tried booking a table well in advance, but it was already fully booked. If you're hoping to dine there, plan several months ahead!
 
 ### Cracking Crabs in the Garden
 
-One highlight of the trip was a crab lunch hosted by Ingrid’s parents. It was my first time cleaning crabs, and I loved the rustic tools we used – a wooden board and a handy stone. Just be careful not to crush your fingers! A crab picker is essential for getting the meat out of the legs. Clearly, I need more practice to master the technique.
+One highlight of the trip was a crab lunch hosted by Ingrid's parents. It was my first time cleaning crabs, and I loved the rustic tools we used – a wooden board and a handy stone. Just be careful not to crush your fingers! A crab picker is essential for getting the meat out of the legs. Clearly, I need more practice to master the technique.
 
 {{ youtube(id="AHnlpOGfBnk") }}
 
@@ -44,8 +44,8 @@ Thankfully, the town's bakery more than made up for it with delicious pastries a
 
 ---
 
-## Lindesnes Fyr – Norway’s Southernmost Lighthouse
+## Lindesnes Fyr – Norway's Southernmost Lighthouse
 
-At the very tip of Norway sits **Lindesnes fyr**, the country's oldest lighthouse. It’s a dramatic place where the land ends and the sea begins. Bunker tunnels weave beneath the rocky terrain, hinting at a storied past.
+At the very tip of Norway sits **Lindesnes fyr**, the country's oldest lighthouse. It's a dramatic place where the land ends and the sea begins. Bunker tunnels weave beneath the rocky terrain, hinting at a storied past.
 
-We were lucky with the weather—clear skies gave us breathtaking views over the ocean and rugged landscape. But honestly, I’d recommend visiting in any weather. Experiencing crashing waves, howling wind, and stormy skies from the cliffs must be unforgettable.
+We were lucky with the weather—clear skies gave us breathtaking views over the ocean and rugged landscape. But honestly, I'd recommend visiting in any weather. Experiencing crashing waves, howling wind, and stormy skies from the cliffs must be unforgettable.
