@@ -1,32 +1,32 @@
 // This defines theme-specific variables.
 @mixin theme-variables($theme) {
-    @if $theme =='light' {
-        // Light theme colours.
-        --primary-color: #087e96; // Contrast ratio: 4.73:1
-    }
+  @if $theme =='light' {
+    // Light theme colours.
+    --primary-color: #087e96; // Contrast ratio: 4.73:1
+  }
 
-    @else if $theme =='dark' {
-        // Dark theme colours.
-        --primary-color: #CD7F32;
-    }
+  @else if $theme =='dark' {
+    // Dark theme colours.
+    --primary-color: #CD7F32;
+  }
 }
 
 // Apply light theme variables by default.
 :root {
-    @include theme-variables('light');
+  @include theme-variables('light');
 }
 
 // Apply dark theme variables when dark theme is explicitly set.
 [data-theme='dark'] {
-    @include theme-variables('dark');
+  @include theme-variables('dark');
 }
 
 // Apply dark theme variables when user's system prefers dark mode
 // and the theme is not explicitly set to light.
 @media (prefers-color-scheme: dark) {
-    :root:not([data-theme='light']) {
-        @include theme-variables('dark');
-    }
+  :root:not([data-theme='light']) {
+    @include theme-variables('dark');
+  }
 }
 
 .gallery-figure {
@@ -64,5 +64,27 @@
     font-size: 0.9em;
     color: #666;
     text-align: center;
+  }
+}
+
+.floated-image {
+  overflow: auto;
+  margin-bottom: 1em;
+
+  &.float-left {
+    float: left;
+    margin: 0 1em 1em 0;
+  }
+
+  &.float-right {
+    float: right;
+    margin: 0 0 1em 1em;
+  }
+
+  @media (max-width: 600px) {
+    img {
+      float: none !important;
+      margin: 0 auto 1em auto;
+    }
   }
 }

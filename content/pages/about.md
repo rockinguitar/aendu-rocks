@@ -45,7 +45,8 @@ And while I'm usually quite chill, I have little patience for rudeness, arroganc
 
 I never imagined moving to a different country — but then I met Ingunn in Helsinki. What started as a long-distance friendship slowly turned into something much more. 
 
-<img src="/img/about/ingunn-andre.jpg" alt="Ingunn & André" width="400" height="300">
+{{ floated_image(src="/img/about/ingunn-andre.jpg" alt="Ingunn & André" width="" height="")}}
+
 
 A year later, we were in love. Eventually, I took the leap and moved to Norway.
 
