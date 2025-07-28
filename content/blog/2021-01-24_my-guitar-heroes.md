@@ -22,7 +22,7 @@ My list of guitar heroes is long, so I've picked just five—otherwise this blog
 
 ## Joe Satriani
 
-A friend from school once gave me a CD called *The Beautiful Guitar* by Joe Satriani. She said, “If you like guitar, you'll love this!” I had never heard of Satriani before and mostly listened to acoustic guitar music at the time. Oh boy—this CD was a revelation and an incredible musical experience. I instantly fell in love with the electric guitar.
+A friend from school once gave me a CD called *The Beautiful Guitar* by Joe Satriani. She said, "If you like guitar, you'll love this!" I had never heard of Satriani before and mostly listened to acoustic guitar music at the time. Oh boy—this CD was a revelation and an incredible musical experience. I instantly fell in love with the electric guitar.
 
 In my opinion, Joe Satriani is one of the most well-rounded guitarists in the world. His tone and musical taste are superb. His technique is flawless, and everything looks so effortless when he plays. But Joe isn't just a great solo artist—he's also humble and knows how to integrate into any band setting. I especially recommend checking out his work with the band **Chickenfoot**.
 
@@ -30,7 +30,7 @@ In my opinion, Joe Satriani is one of the most well-rounded guitarists in the wo
 
 ## John Petrucci
 
-I first heard about John Petrucci through one of my guitar teachers. He told me, *You have to watch the Dream Theater live DVD “Live at Budokan.”* My first reaction? “What a strange name for a band.” When I watched the DVD, I wasn't really enthusiastic at first—maybe I just wasn't ready for that kind of complex music and rhythm.
+I first heard about John Petrucci through one of my guitar teachers. He told me, *You have to watch the Dream Theater live DVD "Live at Budokan."* My first reaction? "What a strange name for a band." When I watched the DVD, I wasn't really enthusiastic at first—maybe I just wasn't ready for that kind of complex music and rhythm.
 
 But there was one particular song that caught my ear: **Hollow Years**. It's soft, mellow, and rhythmically more accessible. In the middle of the song, Petrucci plays an incredible solo. It starts gently, with a beautiful melodic line. Then he switches to the lead channel, weaving in faster licks and arpeggios, ending the solo with a full-on shred. For me, this is one of the best examples of how to build a guitar solo. *Hollow Years* was the icebreaker that got me into progressive metal.
 
