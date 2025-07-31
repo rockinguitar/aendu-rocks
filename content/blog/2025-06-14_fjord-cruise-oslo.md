@@ -9,7 +9,7 @@ tags = ["norway", "oslo", "trip", "fjord", "cruise"]
 
 {{ floated_image(src="https://photos.smugmug.com/photos/i-Mx7qGGv/0/LnBvGKHtN9FSDtBK6vxsqH7hkgcFPsN9qz2NM52nP/S/i-Mx7qGGv-S.jpg" float="right" alt="Ingunn & André on The Fjord" width="400")}}
 
-Ingunn and I went on a beautiful fjord cruise in Oslo with the electric boat **The Fjord**. We wanted to test the accessibility of this sightseeing boat. The 1.5-hour trip takes you along the city’s shoreline, past famous landmarks, historical sites, and between the idyllic islands. 
+Ingunn and I went on a beautiful fjord cruise in Oslo with the electric boat **The Fjord**. We wanted to test the accessibility of this sightseeing boat. The 1.5-hour trip takes you along the city's shoreline, past famous landmarks, historical sites, and between the idyllic islands. 
 
 To board the boat, the crew can place an extra ramp to help you get on. The boat has several floors, and they are accessible with well-designed ramps on both sides of the vessel.
 
