@@ -10,6 +10,8 @@ tags = ["cocktail", "drink"]
 
 The Cosmopolitan cocktail—often called simply a "Cosmo"—is one of my favorite vodka-based drinks. I think it had a major comeback around 1998 thanks to the TV show *Sex and the City*. 
 
+![Cosmopolitan](https://photos.smugmug.com/photos/i-RczkjRm/0/LB7qR7vWG2XfWwKQ5SBmqJM8cN8H7dVLZj6ZGSVbj/L/i-RczkjRm-L.jpg)
+
 At a bar in Tivoli, Copenhagen, I once learned from a bartender that the Cosmo was originally considered a **gentlemen's drink**. Despite its simple recipe, it's surprisingly hard to find a good one at bars. Especially in tourist areas, you'll often get strange versions that have little in common with the real Cosmopolitan. More often than not, I end up disappointed.
 
 ## What Makes a Great Cosmopolitan?
