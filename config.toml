@@ -228,7 +228,7 @@ favicon = "img/aendu-avatar-favicon.ico"
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 # Learn how to create these images in batch and automatically:
 # https://osc.garden/blog/automating-social-media-cards-zola/
-# social_media_card = ""
+social_media_card = "/img/aendu-avatar.webp"
 
 menu = [
     { name = "Who I am", url = "about", trailing_slash = true },
