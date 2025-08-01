@@ -1,5 +1,5 @@
 +++
-title = "Who I am?"
+title = "Who I am"
 template = "info-page.html"
 path = "about"
 +++
