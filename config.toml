@@ -257,7 +257,6 @@ encode_plaintext_email = false  # Setting is ignored if email is already encoded
 # Built-in icons: https://github.com/welpo/tabi/tree/main/static/social_icons
 # To use a custom icon, add it to your site's `static/social_icons` directory.
 socials = [
-    { name = "email", url = "mailto:andre.wittwer@gmail.com", icon = "email" },
     { name = "github", url = "https://github.com/rockinguitar", icon = "github" },
     { name = "bluesky", url = "https://bsky.app/profile/aendu.rocks", icon = "bluesky" },
     { name = "instagram", url = "https://instagram.com/rockinguitar", icon = "instagram" },
