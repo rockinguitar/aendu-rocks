@@ -1,3 +1,5 @@
 +++
-title = "Pages"
+template = "empty.html"
+render = false
+transparent = true
 +++
