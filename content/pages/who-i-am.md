@@ -1,7 +1,7 @@
 +++
 title = "Who I am"
 template = "info-page.html"
-path = "about"
+path = "who-i-am"
 +++
 
 My friends in Switzerland call me Aendu — a short and sweet version of André, as the Swiss love to do. That nickname stuck with me, and so aendu.rocks was born.
@@ -31,6 +31,7 @@ This blog is where I share the things I enjoy and care about.
 
 If you're more into visuals than words, head over to my [SmugMug gallery](https://gallery.aendu.rocks) for a curated photo journey.
 
+<a id="voice-messages"></a>
 ## A few strong opinions
 
 I'm all for modern tech — but voice messages in chat? Absolute nightmare! 

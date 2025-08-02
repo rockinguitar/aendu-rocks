@@ -231,7 +231,7 @@ favicon = "img/aendu-avatar-favicon.ico"
 social_media_card = "/img/aendu-avatar.webp"
 
 menu = [
-    { name = "Who I am", url = "about", trailing_slash = true },
+    { name = "Who I am", url = "who-i-am", trailing_slash = true },
     { name = "Blog", url = "blog", trailing_slash = true },
     { name = "Gallery", url = "https://gallery.aendu.rocks", trailing_slash = false, external = true },
     { name = "Tags", url = "tags", trailing_slash = true },
