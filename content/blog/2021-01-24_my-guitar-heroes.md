@@ -16,7 +16,7 @@ What makes a guitarist my hero? Beyond great technique and tone, the most import
 
 My list of guitar heroes is long, so I've picked just five—otherwise this blog would never end.
 
-{{ youtube(id="gTFP2aS-ol8") }}
+{{< youtube id="gTFP2aS-ol8" />}}
 
 ---
 

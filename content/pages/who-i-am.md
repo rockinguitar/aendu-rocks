@@ -36,7 +36,7 @@ If you're more into visuals than words, head over to my [SmugMug gallery](https:
 
 I'm all for modern tech — but voice messages in chat? Absolute nightmare! 
 
-{{ floated_image(src="/img/about/voice-messages-are-a-sin.jpg" float="left" alt="Voice messages are a sin" width="350")}}
+{{< floated_image src="/img/about/voice-messages-are-a-sin.jpg" float="left" alt="Voice messages are a sin" width="350" />}}
 
 They waste time, eat data, can't be searched, and force everyone to listen instead of just quickly reading. They're often full of dead air, rambling, and "uhms" while people think out loud. 😒 And you can't listen to them just anywhere — especially not in noisy surroundings or public spaces. It's lazy, thoughtless, and annoying.Voice messages in chat are a sin. 😤
 
@@ -48,7 +48,7 @@ And while I'm usually quite chill, I have little patience for rudeness, arroganc
 
 ## Love brought me North
 
-{{ floated_image(src="/img/about/gardermoen.jpg" float="right" alt="Ingunn & André" width="400")}}
+{{< floated_image src="/img/about/gardermoen.jpg" float="right" alt="Ingunn &amp; André" width="400" />}}
 
 I never imagined moving to a different country — but then I met Ingunn in Helsinki. What started as a long-distance friendship slowly turned into something much more. 
 

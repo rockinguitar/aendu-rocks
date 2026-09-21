@@ -4,6 +4,7 @@ description = "aendu.rocks is a blog by André Wittwer about traveling, photogra
 author = "André Wittwer"
 theme = "tabi"
 generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
 compile_sass = true
 minify_html = true
 build_search_index = true
@@ -29,25 +30,26 @@ index_format = "elasticlunr_json"
 
 
 [markdown]
-highlight_code = true
 bottom_footnotes = true
-# To use a Zola built-in theme, CSP needs to allow unsafe-inline for style-src.
-highlight_theme = "css"
 smart_punctuation = true
+# Set to 'external' to add an indicator next to external links.
 external_links_target_blank = true
 external_links_class = "external"
+
+[markdown.highlighting]
+theme = "catppuccin-frappe"
+style = "class"
+
+[link_checker]
+skip_prefixes = [
+    "https://www.linkedin.com",   # LinkedIn returns HTTP 999 to link checkers.
+    "https://www.norwaysbest.com",  # Returns HTTP 429 Too Many Requests.
+]
 
 
 [extra]
 # Check out the documentation (or the comments below) to learn how to customise tabi:
 # https://welpo.github.io/tabi/blog/mastering-tabi-settings/
-
-# Search index format.
-# For Zola 0.17.X users only.
-# This MUST MATCH the setting in [search].index_format.
-# Example: If [search].index_format is "elasticlunr_javascript", set:
-# index_format = "elasticlunr_javascript"
-# index_format = ""
 
 # Use sans-serif font everywhere.
 # By default, the serif font is only used in articles.
@@ -144,12 +146,6 @@ post_listing_date = "date"
 # Can be set at section levels, following the hierarchy: section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 post_listing_index_reversed = false  # Defaults to false.
 
-# DEPRECATED!
-# Use Zola's built-in `bottom_footnotes = true` in the [markdown] section instead. (Available since v0.19.0)
-# Adds backlinks to footnotes (loads ~500 bytes of JavaScripts).
-# Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-footnote_backlinks = false
-
 # Enable KaTeX for all posts.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
 katex = false
@@ -189,11 +185,11 @@ quick_navigation_buttons = true
 
 # Date format used when listing posts (main page, /blog section, tag posts list…)
 # Default is "6th July 2049" in English and "%d %B %Y" in other languages.
-long_date_format = "%A, %d %B %Y"
+long_date_format = "EEEE, dd MMMM y"
 
 # Date format used for blog posts.
 # Default is "6th July 2049" in English and "%-d %B %Y" in other languages.
-short_date_format = "%d.%m.%Y"
+short_date_format = "dd.MM.y"
 # Custom separator used in title tag and posts metadata (between date, time to read, and tags).
 separator = "✧"
 
@@ -239,7 +235,7 @@ menu = [
 
 # The RSS icon will be shown if (1) it's enabled and (2) the following variable is set to true.
 # Note for Zola 0.19.X users: when `feed_filenames` has two filenames, only the first one will be linked in the footer.
-feed_icon = false
+feed_icon = true
 
 # Show the full post content in the Atom feed.
 # If it's set to false, only the description or summary will be shown.

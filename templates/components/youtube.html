@@ -1,0 +1,5 @@
+{%- component youtube(id: string, class = "", playlist = "", autoplay = false) -%}
+<div{% if class %} class="{{ class }}"{% endif %}>
+    <iframe src="https://www.youtube-nocookie.com/embed/{{ id }}{% if playlist %}?list={{ playlist }}{% if autoplay %}&amp;autoplay=1{% endif %}{% elif autoplay %}?autoplay=1{% endif %}" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+{%- endcomponent youtube -%}
