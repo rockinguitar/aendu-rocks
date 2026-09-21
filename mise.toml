@@ -6,3 +6,6 @@ run = "zola build"
 
 [tasks.start]
 run = "zola serve"
+
+[tasks.verify]
+run = "zola check"
