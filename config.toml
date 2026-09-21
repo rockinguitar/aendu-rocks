@@ -40,6 +40,12 @@ external_links_class = "external"
 theme = "catppuccin-frappe"
 style = "class"
 
+[link_checker]
+skip_prefixes = [
+    "https://www.linkedin.com",   # LinkedIn returns HTTP 999 to link checkers.
+    "https://www.norwaysbest.com",  # Returns HTTP 429 Too Many Requests.
+]
+
 
 [extra]
 # Check out the documentation (or the comments below) to learn how to customise tabi:
