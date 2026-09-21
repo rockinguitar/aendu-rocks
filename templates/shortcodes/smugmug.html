@@ -1,8 +1,0 @@
-<figure class="gallery-figure">
-  <a href="https://gallery.aendu.rocks/{{ path | safe }}" target="_blank" rel="noopener">
-    <img src="{{ thumbnail | safe }}" alt="{{ alt | default(value='Gallery preview') }}" />
-  </a>
-  {% if caption %}
-    <figcaption>{{ caption }}</figcaption>
-  {% endif %}
-</figure>

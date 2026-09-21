@@ -18,7 +18,7 @@ Sitting at home and reading on the balcony? After months of remote work and star
 
 Lindesnes isn't the name of a town, but a municipality in Agder County, at the southernmost tip of mainland Norway. It's about 400 km from Oslo, making it an easy day's drive by car.
 
-{{ smugmug(path="Northern-Europe/Lindesnes", caption="Click to view the Lindesnes photo gallery" thumbnail="https://photos.smugmug.com/Northern-Europe/Lindesnes/i-qNsCRH7/0/NPZJMgvZnhWWkL2rNvTg6r4Q6Sk63pSW8dkBqNZM4/M/IMG-20200723-WA0012-M.jpg", width="600" height="450" alt="Lindesnes coast") }}
+{{< smugmug path="Northern-Europe/Lindesnes" caption="Click to view the Lindesnes photo gallery" thumbnail="https://photos.smugmug.com/Northern-Europe/Lindesnes/i-qNsCRH7/0/NPZJMgvZnhWWkL2rNvTg6r4Q6Sk63pSW8dkBqNZM4/M/IMG-20200723-WA0012-M.jpg" width="600" height="450" alt="Lindesnes coast" />}}
 
 ## Spangereid: Seaside Charm and Cold Waters
 
@@ -32,7 +32,7 @@ Spangereid has gained attention in recent years thanks to *Under* – Europe's f
 
 One highlight of the trip was a crab lunch hosted by Ingrid's parents. It was my first time cleaning crabs, and I loved the rustic tools we used – a wooden board and a handy stone. Just be careful not to crush your fingers! A crab picker is essential for getting the meat out of the legs. Clearly, I need more practice to master the technique.
 
-{{ youtube(id="AHnlpOGfBnk") }}
+{{< youtube id="AHnlpOGfBnk" />}}
 
 ---
 
