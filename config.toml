@@ -4,6 +4,7 @@ description = "aendu.rocks is a blog by André Wittwer about traveling, photogra
 author = "André Wittwer"
 theme = "tabi"
 generate_feeds = true
+feed_filenames = ["atom.xml", "rss.xml"]
 compile_sass = true
 minify_html = true
 build_search_index = true
