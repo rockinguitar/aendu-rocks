@@ -1,2 +1,8 @@
 [tools]
 zola = "0.23.6"
+
+[tasks.build]
+run = "zola build"
+
+[tasks.start]
+run = "zola serve"
