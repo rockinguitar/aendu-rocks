@@ -51,6 +51,24 @@
   }
 }
 
+// Vertical video, e.g. a YouTube Short. The theme sets every iframe to 16/9
+// (themes/tabi/sass/parts/_misc.scss), which pillarboxes a 9/16 upload. Opt in
+// per embed with {{< youtube id="…" class="vertical-video" />}} rather than
+// changing the global rule.
+.vertical-video {
+  display: flex;
+  justify-content: center;
+  margin-block-end: 3vmin;
+
+  iframe {
+    aspect-ratio: 9 / 16;
+    width: auto;
+    height: 70vmin;
+    max-width: none;
+    margin-inline: 0;
+  }
+}
+
 .floated-image {
   margin-bottom: 1em;
 
