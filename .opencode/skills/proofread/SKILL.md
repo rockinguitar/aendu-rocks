@@ -5,82 +5,67 @@ description: Proofread a post or page in content/ — typos, grammar, and spelli
 
 # Proofreading
 
-Fixes mechanics, not style. The aim is a post with no typos and consistent
-house English, still unmistakably written by André.
+Fix mechanics, not style. No typos, consistent house English, still
+unmistakably written by André.
 
-## Fix these
+## Fix
 
-- Typos, doubled or dropped words, missing spaces after punctuation
-- Subject–verb agreement, article errors, wrong prepositions
-- Comma splices and run-on sentences that genuinely impede reading
-- Inconsistent capitalisation of a term you deliberately capitalise
+Typos, doubled or dropped words, missing spaces, agreement, articles,
+prepositions, capitalisation of terms you deliberately capitalise. Comma
+splices only where they genuinely impede reading.
 
-## British-leaning English
+## House English
 
-The house style is British English with room for the occasional neutral or
-proper-noun spelling. Prefer `-ise` over `-ize`, `-our` over `-or`, `-re` over
-`-er` for words like `centre` and `traveller`, and `travelling` with two l's.
+British-leaning. Prefer `-ise` over `-ize`, `-our` over `-or`, `-re` over
+`-er` (`centre`, `traveller`), `travelling` with two l's. Spaced em-dashes —
+`word — word` — as most of the site writes them.
 
-The Americanisms in the content, all of which a pass should fix:
-
-| American | British | Where |
+| | Word | Where |
 |---|---|---|
-| `favorite` | `favourite` | 5 files, 8 occurrences |
-| `color` | `colour` | `sables.md` |
-| `colorful` | `colourful` | `lindesnes.md` |
-| `harbor` | `harbour` | `lindesnes.md` |
-| `traveling` | `travelling` | `who-i-am.md` |
-| `traveler` | `traveller` | `who-i-am.md` |
+| fix | `favorite` → `favourite` | 5 files, 8 occurrences |
+| fix | `color`, `colorful` | `sables.md`, `lindesnes.md` |
+| fix | `harbor` → `harbour` | `lindesnes.md` |
+| fix | `traveling`, `traveler` | `who-i-am.md` |
+| **leave** | `Dream Theater` | Band name |
+| **leave** | `practice` | A noun, correct in British. Only the *verb* is `practise` |
 
-These look American but are correct — do not "fix" them:
+`Sablé` and `Lindesnes` are French and Norwegian. A blanket `-er`
+find-and-replace breaks `Theater`, `practice`, and `centered-text`.
 
-| Word | Why it stays |
-|---|---|
-| `Dream Theater` | Band name |
-| `practice` (in `lindesnes.md`) | A noun, and correct in British English. Only the *verb* is `practise` |
-| `centered-text` | A CSS class in a Markdown attribute, not prose |
-| `Sablé`, `Lindesnes` | French and Norwegian words |
+## Don't touch
 
-A blanket find-and-replace for `-er` endings will break the first three.
+**Alt text** describes the image for a reader who cannot see it. Fix typos,
+but never rewrite it to match the prose or count it as a duplicate of it — the
+alt and the prose are the same subject with different jobs. It is also HTML, so
+`alt="Ingunn &amp; André"` uses a deliberate entity, not a stray `&`.
 
-## Leave these alone
+**URLs and identifiers**: `smugmug` `path` and `thumbnail`, `youtube` `id` and
+`playlist`, plus `width`, `height`, `float`. Never spell-correct these. The
+`smugmug` `caption` *is* prose — proofread it normally.
 
-- **The author's voice.** This is a personal blog with strong opinions and
-  deliberate repetition for effect. Fix the mechanics, keep the character.
-  Do not make a sentence more formal, shorter, or "better" than it is.
-- **Jokes.** `voice-messages-are-a-sin.webp` and the surrounding rant are the
-  post's point. Straighten the grammar, keep the joke.
-- **Intentional informality.** Sentence fragments for rhythm, single-word
-  paragraphs, rhetorical questions.
-- **Markdown-significant whitespace.** Two trailing spaces are a hard line
-  break — the cocktail recipes in `cosmopolitan.md` depend on them. A
-  trailing-whitespace cleanup will silently break those lists.
-- **Straight quotes.** `smart_punctuation = true` in `config.toml` makes Zola
-  convert them at build time. Do not pre-empt it.
-- **Frontmatter**, unless asked. Do not change `title`, `date`, or `tags` while
-  proofreading prose.
+**Frontmatter**: `description` has a ~160-character budget and feeds the feed,
+sitemap, and social cards, so treat it as standalone copy, not body prose.
+Leave `title`, `date`, and `tags` alone unless asked.
 
-## Punctuation
+**CSS classes** like `{.centered-text}` are not words.
 
-Use spaced em-dashes — `word — word` — as the rest of the site does.
-`cosmopolitan.md` is the outlier, with three closed dashes (`cocktail—often`,
-lines 11, 19, and 23); normalise them.
+**Markdown whitespace**: two trailing spaces are a hard line break, and the
+cocktail recipes in `cosmopolitan.md` depend on them.
+
+**Straight quotes**: `smart_punctuation = true` makes Zola convert them at
+build time. Do not pre-empt it.
+
+**Voice and jokes**: a personal blog with strong opinions, deliberate
+repetition for effect, sentence fragments, and single-word paragraphs. Fix the
+mechanics, keep the character. The `voice-messages-are-a-sin` rant is that
+post's point.
 
 ## Process
 
-1. Read the whole post first. Proofreading line by line misses repetition
-   across sections.
-2. Fix what you are sure of. Where a sentence is ambiguous, leave it and
-   raise it — do not guess at intent.
-3. Show the changes as a list of before/after pairs, grouped by file. Do not
-   silently rewrite a paragraph; the author decides what lands.
-4. Flag anything you deliberately left, with the reason.
-
-## After editing
-
-```sh
-mise run verify
-```
-
-Then re-read in the browser (`mise run start`) — a "fix" that changes how a
-list renders is not a fix.
+1. Read the whole post first — line by line misses repetition across sections.
+2. Fix what you are sure of. Where intent is ambiguous, leave it and raise it
+   rather than guessing.
+3. Show changes as before/after pairs grouped by file. Do not silently rewrite
+   a paragraph; the author decides what lands. Flag what you left, and why.
+4. Run `mise run verify`, then re-read in the browser (`mise run start`). A
+   fix that changes how a list renders is not a fix.
