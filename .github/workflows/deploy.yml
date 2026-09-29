@@ -20,14 +20,11 @@ jobs:
       - name: Build site
         run: zola build
 
-      - name: Install Wrangler
-        run: npm install -g wrangler
-
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          wranglerVersion: 3.90.0
           command: pages deploy ./public --project-name=aendu-rocks
