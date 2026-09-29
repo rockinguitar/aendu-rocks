@@ -1,0 +1,128 @@
+# AGENTS.md
+
+Personal blog and photo journal of André Wittwer — <https://aendu.rocks>.
+Built with [Zola](https://www.getzola.org/) and the
+[Tabi](https://github.com/welpo/tabi) theme, deployed to Cloudflare Pages.
+
+## Commands
+
+Always go through mise so the pinned Zola version is used.
+
+```sh
+mise run start     # zola serve — http://127.0.0.1:1111
+mise run build     # zola build — writes ./public
+mise run verify    # zola check — the gate, see below
+```
+
+Do not call a global `zola`; `mise.toml` pins `0.23.6` and CI installs the
+same version. Use `mise exec zola -- <args>` for anything the tasks don't cover.
+
+## Verification
+
+Run `mise run verify` after changing content, templates, Sass, or `config.toml`.
+It reports broken internal links and malformed frontmatter, so it catches most
+mistakes before a build. Follow with `mise run build` when you need to inspect
+generated HTML.
+
+`public/` is build output and is git-ignored. Never edit it by hand.
+
+## Content conventions
+
+Posts live at `content/blog/YYYY-MM-DD_kebab-slug.md`. Dates are the post's
+actual date, not the writing date.
+
+```toml
++++
+title = "Fjord Cruise Oslofjord"
+description = "One or two sentences — used for SEO, the feed, and og:description."
+date = "2025-06-14"
+updated = "2025-07-25"   # only when revising an existing post
+
+[extra]
+social_media_card = "/img/events/fjord-cruise.webp"
+
+[taxonomies]
+tags = ["norway", "oslo", "trip"]
++++
+```
+
+- `title`, `description`, and `date` are always set. `description` is not
+  optional — it feeds the Atom feed, the sitemap, and social previews.
+- `social_media_card` is set on posts that have a matching local image. It falls
+  back to `/img/aendu-avatar.webp` from `config.toml`, which is rarely the
+  right choice for a specific post.
+- Tags are lowercase and reused across posts where they apply.
+- `content/pages/` holds standalone pages, `content/archive/_index.md` drives
+  the archive listing. Both paginate via their own `_index.md`.
+
+## Custom shortcodes
+
+Defined in `templates/components/`, overriding nothing in the theme. They are
+site additions, so consult the theme docs for everything else.
+
+- `{{< smugmug path=... thumbnail=... caption=... alt=... width=... height=... />}}`
+  links a SmugMug gallery, rendering a captioned thumbnail that opens the
+  gallery. This is the standard way to present a photo-heavy trip.
+- `{{< floated_image src=... float="left|right" alt=... width=... />}}`
+  wraps text. Fits the figure to the text column and drops the float below
+  600px, so it is safe in prose.
+- `{{< youtube id=... />}}` embeds a privacy-friendly, cookie-less player.
+
+Images are either local (in `static/img/`) or hot-linked from SmugMug. See the
+`blog-media` skill for the embedding patterns and for optimising new images.
+
+## Images
+
+Everything in `static/img/` is WebP. When adding one, resize the long edge to
+1200px, strip metadata, and encode at quality 80 — see the `blog-media` skill
+for the exact `magick` invocation.
+
+**Strip metadata on every image.** Phone photos embed GPS coordinates for
+where they were taken, and this is a public blog. One photo in this repo was a
+Pixel capture tagged with the coordinates of a private venue. Always convert
+with `-strip`, and verify the result:
+
+```sh
+magick identify -format 'gps=%[EXIF:GPSLatitude]\n' static/img/events/photo.webp
+# gps=   <- empty means the metadata is gone
+```
+
+Social cards especially benefit from resizing; an unoptimised 3000×4000 card
+cost 2.99 MB before this was fixed, and crawlers fetch it on every share.
+
+## Theme updates
+
+`themes/tabi` is a git submodule. `.github/workflows/update-tabi.yml` opens a
+PR every Monday when upstream moves, so upgrades arrive on their own.
+
+- Never hand-edit anything under `themes/tabi/`. Local changes are lost on the
+  next bump and will fail CI's build.
+- To customise, override in `templates/`, `sass/`, or `static/` at the repo
+  root. Zola merges those over the theme.
+- The custom shortcodes depend on theme internals. After accepting a bump, run
+  `mise run verify`, build, and confirm posts that use them still render.
+
+## Git
+
+Commits follow [Conventional Commits](https://www.conventionalcommits.org/).
+Write one logical change per commit, in the imperative mood, and describe the
+effect rather than the diff.
+
+```
+feat: add fjord cruise oslo post
+fix: point social card at the new webp
+docs: explain the smugmug shortcode in AGENTS.md
+refactor: extract gallery figure styles
+chore: bump tabi submodule
+```
+
+Type prefixes: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `build`,
+`ci`, `chore`, `revert`. Use `!` plus a `BREAKING CHANGE:` footer for anything
+that would force a coordinated change elsewhere.
+
+Scope by area when it adds clarity: `feat(content):`, `fix(sass):`,
+`chore(theme):`. Keep the subject under ~72 characters.
+
+`main` deploys to Cloudflare Pages automatically, so anything merged there
+ships immediately. Theme-update PRs are generated by the bot; don't rewrite
+their messages.
