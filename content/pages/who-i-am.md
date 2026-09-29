@@ -54,4 +54,6 @@ I never imagined moving to a different country — but then I met Ingunn in Hels
 
 A year later, we were in love. Eventually, I took the leap and moved to Norway.
 
+And on 20 March 2026, after more than 10 years together, we got married at Oslo City Hall. I [wrote about the day here](/blog/wedding/).
+
 Ingunn is an inspiring writer and traveler who blogs about exploring the world in a wheelchair. If you're searching for travel inspiration — with or without wheels — check out her fantastic blog: [Wheel the World](https://wheeltheworld.net/).
