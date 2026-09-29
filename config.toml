@@ -257,7 +257,6 @@ full_content_in_feed = true
 socials = [
     { name = "github", url = "https://github.com/rockinguitar", icon = "github" },
     { name = "bluesky", url = "https://bsky.app/profile/aendu.rocks", icon = "bluesky" },
-    { name = "instagram", url = "https://instagram.com/rockinguitar", icon = "instagram" },
     { name = "youtube", url = "https://www.youtube.com/@rockinguitar.66 ", icon = "youtube" },
 ]
 
