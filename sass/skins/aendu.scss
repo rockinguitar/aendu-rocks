@@ -61,9 +61,14 @@
   margin-block-end: 3vmin;
 
   iframe {
+    // Size from the width, not the height. Driving it from a height (the
+    // obvious `height: 70vmin`) makes the width a byproduct — 9/16 of 70vmin
+    // is 39vmin, a narrow strip in a 760px column, and only 154px wide on a
+    // phone where vmin is the screen width. Filling the column and capping
+    // the width instead keeps the Short as large as the screen allows.
     aspect-ratio: 9 / 16;
-    width: auto;
-    height: 70vmin;
+    width: min(100%, 45vh);
+    height: auto;
     max-width: none;
     margin-inline: 0;
   }
