@@ -9,7 +9,7 @@ compile_sass = true
 minify_html = true
 build_search_index = true
 default_language = "en"
-taxonomies = [{name = "tags", feed = true}]
+taxonomies = [{ name = "tags", feed = true }]
 
 
 [search]
@@ -42,8 +42,8 @@ style = "class"
 
 [link_checker]
 skip_prefixes = [
-    "https://www.linkedin.com",   # LinkedIn returns HTTP 999 to link checkers.
-    "https://www.norwaysbest.com",  # Returns HTTP 429 Too Many Requests.
+    "https://www.linkedin.com",    # LinkedIn returns HTTP 999 to link checkers.
+    "https://www.norwaysbest.com", # Returns HTTP 429 Too Many Requests.
 ]
 
 
@@ -96,14 +96,14 @@ base_canonical_url = "https://aendu.rocks"
 remote_repository_url = "https://github.com/rockinguitar/aendu-rocks"
 # Set this to "auto" to try and auto-detect the platform based on the repository URL.
 # Accepted values are "github", "gitlab", "gitea", and "codeberg".
-remote_repository_git_platform = "auto"  # Defaults to "auto".
+remote_repository_git_platform = "auto" # Defaults to "auto".
 # Branch in the repo hosting the Zola site.
-remote_repository_branch = "main"  # Defaults to "main".
+remote_repository_branch = "main" # Defaults to "main".
 # Show a link to the commit history of updated posts, right next to the last updated date.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-show_remote_changes = true  # Defaults to true.
+show_remote_changes = true # Defaults to true.
 # Show a link to the repository of the site, right next to the "Powered by Zola & tabi" text.
-show_remote_source = true  # Defaults to true.
+show_remote_source = true # Defaults to true.
 
 # Add a "copy" button to codeblocks (loads ~700 bytes of JavaScript).
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -144,7 +144,7 @@ post_listing_date = "date"
 # Determines if indexes should be increasing (false) or decreasing (true) in series' posts list.
 # It has only effect if the section uses indexes metadata (which is only the case for series as of now).
 # Can be set at section levels, following the hierarchy: section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
-post_listing_index_reversed = false  # Defaults to false.
+post_listing_index_reversed = false # Defaults to false.
 
 # Enable KaTeX for all posts.
 # Can be set at page or section levels, following the hierarchy: page > section > config. See: https://welpo.github.io/tabi/blog/mastering-tabi-settings/#settings-hierarchy
@@ -257,7 +257,7 @@ full_content_in_feed = true
 socials = [
     { name = "github", url = "https://github.com/rockinguitar", icon = "github" },
     { name = "bluesky", url = "https://bsky.app/profile/aendu.rocks", icon = "bluesky" },
-    { name = "youtube", url = "https://www.youtube.com/@rockinguitar.66 ", icon = "youtube" },
+    { name = "youtube", url = "https://www.youtube.com/@rockinguitar.66", icon = "youtube" },
 ]
 
 # Fediverse profile.
@@ -293,12 +293,28 @@ copyright = "© $CURRENT_YEAR $AUTHOR $SEPARATOR All rights reserved. Contact fo
 # This configuration (along with the right webserver settings) gets an A+ in Mozilla's Observatory: https://observatory.mozilla.org
 # Note: to use a Zola built-in syntax highlighting theme, allow unsafe-inline for style-src.
 allowed_domains = [
-    { directive = "font-src", domains = ["'self'", "data:"] },
-    { directive = "img-src", domains = ["'self'", "https://*", "data:"] },
-    { directive = "media-src", domains = ["'self'"] },
-    { directive = "script-src", domains = ["'self'"] },
-    { directive = "style-src", domains = ["'self'"] },
-    { directive = "frame-src", domains = ["player.vimeo.com", "https://www.youtube-nocookie.com"] },
+    { directive = "font-src", domains = [
+        "'self'",
+        "data:",
+    ] },
+    { directive = "img-src", domains = [
+        "'self'",
+        "https://*",
+        "data:",
+    ] },
+    { directive = "media-src", domains = [
+        "'self'",
+    ] },
+    { directive = "script-src", domains = [
+        "'self'",
+    ] },
+    { directive = "style-src", domains = [
+        "'self'",
+    ] },
+    { directive = "frame-src", domains = [
+        "player.vimeo.com",
+        "https://www.youtube-nocookie.com",
+    ] },
 ]
 
 # Enable the CSP directives configured (or default).
