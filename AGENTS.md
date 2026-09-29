@@ -13,7 +13,7 @@ mise run verify    # zola check — the gate
 ```
 
 Go through mise so the pinned Zola version is used. For other Zola subcommands,
-use `mise exec zola -- <args>`.
+use `mise exec -- zola <args>`.
 
 ## Verification
 
