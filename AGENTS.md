@@ -6,123 +6,106 @@ Built with [Zola](https://www.getzola.org/) and the
 
 ## Commands
 
-Always go through mise so the pinned Zola version is used.
-
 ```sh
 mise run start     # zola serve — http://127.0.0.1:1111
 mise run build     # zola build — writes ./public
-mise run verify    # zola check — the gate, see below
+mise run verify    # zola check — the gate
 ```
 
-Do not call a global `zola`; `mise.toml` pins `0.23.6` and CI installs the
-same version. Use `mise exec zola -- <args>` for anything the tasks don't cover.
+Go through mise so the pinned Zola version is used. For other Zola subcommands,
+use `mise exec zola -- <args>`.
 
 ## Verification
 
-Run `mise run verify` after changing content, templates, Sass, or `config.toml`.
-It reports broken internal links and malformed frontmatter, so it catches most
-mistakes before a build. Follow with `mise run build` when you need to inspect
-generated HTML.
+Run `mise run verify` after changing content, templates, Sass, or
+`config.toml`, and before reporting a change as working — it catches broken
+internal links and malformed frontmatter. Use `mise run build` when you need
+to inspect generated HTML; the minifier rewrites attribute quoting, so verify
+against the output rather than the source.
 
-`public/` is build output and is git-ignored. Never edit it by hand.
+Treat `public/` as git-ignored build output. Never edit it by hand.
 
-## Content conventions
+## Content
 
-Posts live at `content/blog/YYYY-MM-DD_kebab-slug.md`. Dates are the post's
-actual date, not the writing date.
+Put posts at `content/blog/YYYY-MM-DD_kebab-slug.md` and date them when the
+post is about, not when it was written. `content/pages/` holds standalone
+pages, `content/archive/_index.md` drives the archive listing.
 
-```toml
-+++
-title = "Fjord Cruise Oslofjord"
-description = "One or two sentences — used for SEO, the feed, and og:description."
-date = "2025-06-14"
-updated = "2025-07-25"   # only when revising an existing post
+Set `title`, `description`, and `date` on every post. `description` is not
+optional — it feeds the Atom feed, the sitemap, and every social preview, so
+keep it under ~160 characters and make it stand alone. Set
+`[extra] social_media_card` to a local image when the post has one; the
+`config.toml` fallback is the site avatar, which is almost never right. Tags are
+lowercase and reused across posts. Existing posts are the reference for exact
+frontmatter shape.
 
-[extra]
-social_media_card = "/img/events/fjord-cruise.webp"
+## Shortcodes
 
-[taxonomies]
-tags = ["norway", "oslo", "trip"]
-+++
-```
+Three site additions in `templates/components/`, overriding nothing in the
+theme. Everything else is stock Tabi — use the theme docs for that.
 
-- `title`, `description`, and `date` are always set. `description` is not
-  optional — it feeds the Atom feed, the sitemap, and social previews.
-- `social_media_card` is set on posts that have a matching local image. It falls
-  back to `/img/aendu-avatar.webp` from `config.toml`, which is rarely the
-  right choice for a specific post.
-- Tags are lowercase and reused across posts where they apply.
-- `content/pages/` holds standalone pages, `content/archive/_index.md` drives
-  the archive listing. Both paginate via their own `_index.md`.
+- `{{< smugmug path=… thumbnail=… caption=… alt=… width=… height=… />}}` —
+  links a SmugMug gallery via a captioned thumbnail.
+- `{{< floated_image src=… float="left|right" alt=… width=… />}}` — wraps text.
+- `{{< youtube id=… />}}` — cookie-less video embed.
 
-## Custom shortcodes
-
-Defined in `templates/components/`, overriding nothing in the theme. They are
-site additions, so consult the theme docs for everything else.
-
-- `{{< smugmug path=... thumbnail=... caption=... alt=... width=... height=... />}}`
-  links a SmugMug gallery, rendering a captioned thumbnail that opens the
-  gallery. This is the standard way to present a photo-heavy trip.
-- `{{< floated_image src=... float="left|right" alt=... width=... />}}`
-  wraps text. Fits the figure to the text column and drops the float below
-  600px, so it is safe in prose.
-- `{{< youtube id=... />}}` embeds a privacy-friendly, cookie-less player.
-
-Images are either local (in `static/img/`) or hot-linked from SmugMug. See the
-`blog-media` skill for the embedding patterns and for optimising new images.
+For which to reach for, SmugMug size selection, and worked examples, see
+`content/blog/2025-06-14_fjord-cruise-oslo.md`, which uses all three.
 
 ## Images
 
-Everything in `static/img/` is WebP. When adding one, resize the long edge to
-1200px, strip metadata, and encode at quality 80 — see the `blog-media` skill
-for the exact `magick` invocation.
+Store only WebP in `static/img/`. Resize new images to a 1200px long edge,
+strip their metadata, and encode at quality 80.
 
-**Strip metadata on every image.** Phone photos embed GPS coordinates for
-where they were taken, and this is a public blog. One photo in this repo was a
-Pixel capture tagged with the coordinates of a private venue. Always convert
-with `-strip`, and verify the result:
+**Always strip metadata.** Phone photos embed GPS coordinates, and this is a
+public blog — one image in this repo was a Pixel capture tagged with the
+coordinates of a private venue. Confirm a converted image is clean:
 
 ```sh
 magick identify -format 'gps=%[EXIF:GPSLatitude]\n' static/img/events/photo.webp
-# gps=   <- empty means the metadata is gone
+# gps=   <- empty (or a lookup error) means the metadata is gone
 ```
 
-Social cards especially benefit from resizing; an unoptimised 3000×4000 card
-cost 2.99 MB before this was fixed, and crawlers fetch it on every share.
+Optimising `static/img` cut it from 4.15 MB to 531 KB:
+
+```sh
+magick source.jpg -auto-orient -resize '1200x1200>' -strip -quality 80 \
+  static/img/events/my-photo.webp
+```
+
+Keep the trailing `>`: without it ImageMagick upscales instead of only
+shrinking.
 
 ## Theme updates
 
-`themes/tabi` is a git submodule. `.github/workflows/update-tabi.yml` opens a
-PR every Monday when upstream moves, so upgrades arrive on their own.
+`themes/tabi` is a git submodule. `.github/workflows/update-tabi.yml` opens a PR
+every Monday when upstream moves, so upgrades arrive on their own.
 
 - Never hand-edit anything under `themes/tabi/`. Local changes are lost on the
   next bump and will fail CI's build.
 - To customise, override in `templates/`, `sass/`, or `static/` at the repo
   root. Zola merges those over the theme.
-- The custom shortcodes depend on theme internals. After accepting a bump, run
-  `mise run verify`, build, and confirm posts that use them still render.
+- The shortcodes above depend on theme internals. After accepting a bump, run
+  `mise run verify` and confirm posts using them still render.
 
 ## Git
 
 Commits follow [Conventional Commits](https://www.conventionalcommits.org/).
-Write one logical change per commit, in the imperative mood, and describe the
-effect rather than the diff.
+One logical change per commit, imperative mood, describing the effect rather
+than the diff.
 
 ```
 feat: add fjord cruise oslo post
 fix: point social card at the new webp
-docs: explain the smugmug shortcode in AGENTS.md
-refactor: extract gallery figure styles
+perf: convert site images to webp
 chore: bump tabi submodule
 ```
 
-Type prefixes: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `build`,
-`ci`, `chore`, `revert`. Use `!` plus a `BREAKING CHANGE:` footer for anything
-that would force a coordinated change elsewhere.
+Use these types: `feat`, `fix`, `docs`, `style`, `refactor`, `perf`, `build`,
+`ci`, `chore`, `revert`. Add `!` and a `BREAKING CHANGE:` footer when a
+coordinated change is forced elsewhere. Scope by area when it adds clarity
+(`feat(content):`, `chore(theme):`). Keep the subject under ~72 characters.
 
-Scope by area when it adds clarity: `feat(content):`, `fix(sass):`,
-`chore(theme):`. Keep the subject under ~72 characters.
-
-`main` deploys to Cloudflare Pages automatically, so anything merged there
-ships immediately. Theme-update PRs are generated by the bot; don't rewrite
-their messages.
+Merging to `main` deploys to Cloudflare Pages immediately, so treat it as a
+release. Theme-update PRs are generated by the bot; don't rewrite their
+messages.
