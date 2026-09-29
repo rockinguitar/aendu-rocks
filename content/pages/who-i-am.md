@@ -10,7 +10,7 @@ These days, I call Oslo home — a vibrant contrast to the alpine beauty of Thun
 
 ## Passionate about life (and loud guitars)
 
-I'm a curious soul who finds joy in concerts, photography, electric guitars, cooking, traveling, and mixing cocktails. Music isn't just a hobby — it's the rhythm behind much of what I do. From rock and metal to jazz, film scores, and classical, I've always had a soft spot for the complexity and storytelling of progressive rock and metal.
+I'm a curious soul who finds joy in concerts, photography, electric guitars, cooking, travelling, and mixing cocktails. Music isn't just a hobby — it's the rhythm behind much of what I do. From rock and metal to jazz, film scores, and classical, I've always had a soft spot for the complexity and storytelling of progressive rock and metal.
 
 ## What I do when I'm not stirring Negronis
 
@@ -25,7 +25,7 @@ You'll find more about my professional side on [LinkedIn](https://www.linkedin.c
 This blog is where I share the things I enjoy and care about.
 
 - Travel experiences that shaped me
-- My favorite cocktail recipes and experiments
+- My favourite cocktail recipes and experiments
 - Stories from the kitchen and the concert hall
 - Deep dives into music, places, and moments that matter
 
