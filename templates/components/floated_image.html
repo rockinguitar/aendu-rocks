@@ -1,5 +1,5 @@
-{%- component floated_image(src: string, float: string = "left", alt: string = "", width: string = "300", height: string = "auto") -%}
+{%- component floated_image(src: string, float: string = "left", alt: string = "", width: string = "300", height: string = "") -%}
 <div class="floated-image float-{{ float }}">
-<img src="{{ src }}" alt="{{ alt }}" width="{{ width }}" height="{{ height }}">
+<img src="{{ src }}" alt="{{ alt }}" width="{{ width }}" {% if height %}height="{{ height }}"{% endif %}>
 </div>
 {%- endcomponent floated_image -%}

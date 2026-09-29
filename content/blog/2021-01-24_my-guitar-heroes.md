@@ -8,7 +8,7 @@ updated = "2025-07-25"
 tags = ["guitar", "heroes", "music"]
 +++
 
-There are so many gifted guitarists across every genre, which makes it extremely hard to choose just one ultimate guitar hero! Sadly, the electric guitar isn't as popular as it once was. But for me, it will always be my favorite instrument in the world. To truly master the guitar, you need stamina, endurance, passion, dedication, and perseverance. But above all, you need to have fun!
+There are so many gifted guitarists across every genre, which makes it extremely hard to choose just one ultimate guitar hero! Sadly, the electric guitar isn't as popular as it once was. But for me, it will always be my favourite instrument in the world. To truly master the guitar, you need stamina, endurance, passion, dedication, and perseverance. But above all, you need to have fun!
 
 I started learning and playing guitar as a kid. I was inspired by records from Elvis Presley, Freddy Quinn, and B.B. King. Over time, my musical taste has shifted—or rather, expanded—a lot. And with that change, my guitar heroes have changed too. 
 

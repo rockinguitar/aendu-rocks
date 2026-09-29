@@ -8,7 +8,7 @@ updated = "2025-07-25"
 tags = ["cocktail", "drink"]
 +++
 
-The Cosmopolitan cocktail—often called simply a "Cosmo"—is one of my favorite vodka-based drinks. I think it had a major comeback around 1998 thanks to the TV show *Sex and the City*. 
+The Cosmopolitan cocktail—often called simply a "Cosmo"—is one of my favourite vodka-based drinks. I think it had a major comeback around 1998 thanks to the TV show *Sex and the City*. 
 
 ![Cosmopolitan](https://photos.smugmug.com/photos/i-RczkjRm/0/LB7qR7vWG2XfWwKQ5SBmqJM8cN8H7dVLZj6ZGSVbj/L/i-RczkjRm-L.jpg)
 
@@ -20,7 +20,7 @@ The most important factor is the **balance between sweet and sour**. Don't overd
 
 ## Recipes
 
-For a long time, Ingunn's recipe was my ultimate favorite. The drink tastes fantastic—and the big advantage of her version is how easy it is to remember: `4-3-2-1`.
+For a long time, Ingunn's recipe was my ultimate favourite. The drink tastes fantastic—and the big advantage of her version is how easy it is to remember: `4-3-2-1`.
 
 - 4 ice cubes  
 - 3 parts cranberry juice  
