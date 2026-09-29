@@ -241,13 +241,15 @@ feed_icon = true
 # If it's set to false, only the description or summary will be shown.
 full_content_in_feed = true
 
-# Email address for footer's social section.
-# Protect against spambots:
-# 1. Use base64 for email (convert at https://www.base64encode.org/ or `printf 'your@email.com' | base64`).
-# 2. Or, set 'encode_plaintext_email' to true for auto-encoding (only protects on site, not in public repos).
-email = "YW5kcmUud2l0dHdlckBnbWFpbC5jb20="  # base64 encoded version of "mail@example.com"
+# Email address for footer's social section. Currently unset — no active address to publish.
+# To re-enable, set 'email' and keep 'encode_plaintext_email' false, then base64-encode the
+# address: printf 'you@example.com' | base64. Tabi detects the encoding by the absence of '@'.
+# Note: a pre-encoded address breaks extra.hcard.with_mail, which emits the raw value into
+# href="mailto:...". Cloudflare's Email Address Obfuscation is enabled by default on all
+# plans but cannot help here — it rewrites the served HTML and never sees an '@' to match.
+# email = ""
 # Decoding requires ~400 bytes of JavaScript. If JS is disabled, the email won't be displayed.
-encode_plaintext_email = false  # Setting is ignored if email is already encoded.
+# encode_plaintext_email = false
 
 # Social media links for the footer.
 # Built-in icons: https://github.com/welpo/tabi/tree/main/static/social_icons
@@ -454,7 +456,9 @@ domain = ""
 # p_locality = "Bordeaux"
 # p_country_name = "France"
 enable = true
-with_mail = true
+# Off: extra.email is unset, and Tabi cannot detect a hand-encoded address, so
+# enabling this while email is base64 produces a mailto: link pointing at base64.
+with_mail = false
 with_social_links = true
 avatar = "img/aendu-avatar.webp"
 full_name = "André Wittwer"
