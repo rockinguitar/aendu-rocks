@@ -18,13 +18,22 @@ The site is built using the [Zola](https://www.getzola.org/) static site generat
 
 ## 🛠️ Local Development
 
-To preview the site locally:
+The toolchain is managed with [mise](https://mise.jdx.dev/), which pins the
+Zola version used locally and in CI. Install [mise](https://mise.jdx.dev/) and
+run the tasks it defines:
 
 ```bash
-zola serve
+mise run start     # serve the site at http://127.0.0.1:1111
+mise run build     # build into ./public
+mise run verify    # zola check — links, frontmatter, and build errors
 ```
 
-Then open http://127.0.0.1:1111 in your browser.
+`mise run start` is the normal way to preview the site. For other Zola
+subcommands, go through mise so the pinned version is used:
+
+```bash
+mise exec -- zola serve --help
+```
 
 ## 📄 License
 
