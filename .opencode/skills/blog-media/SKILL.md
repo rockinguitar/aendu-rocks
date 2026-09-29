@@ -17,8 +17,14 @@ commit a local file when the image has no SmugMug equivalent.
 |---|---|
 | A trip, event, or album worth revisiting | `smugmug` gallery |
 | A photo beside a paragraph of prose | `floated_image` |
+| A single photo standing alone, or a post's opener | Plain `![]()` — the theme already centres it |
 | A social card, avatar, or page illustration | Local in `static/img/` |
 | A sequence of photos that *are* the post | Plain `![]()` images |
+
+Plain images need no centring CSS. `themes/tabi/sass/parts/_image.scss` sets
+`display: block; margin: 0 auto` on `img`, so a bare `![]()` is centred and
+capped to the column. Reach for `floated_image` only when text is meant to
+wrap beside the image — a standalone opener that floats is a bug, not a style.
 
 ## SmugMug size selection
 
