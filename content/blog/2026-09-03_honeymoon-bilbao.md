@@ -15,9 +15,21 @@ We had a direct flight from Oslo to Bilbao and landed in the afternoon. The assi
 Our hotel [Meliá Bilbao](https://www.melia.com/en/hotels/spain/bilbao/melia-bilbao), close to the tram line and river, was clean and accessible. The only thing we can complain about is the broken shower chair, which got fixed after the second complaint. 
 
 
-## Highlights
+## Aste Nagusia
 
-Aste Nagusia, 9-day festival
+We had no clue there was a festival going on. All we noticed was free concerts everywhere. Then we asked our waiter, and he told us that Bilbao was in the middle of [Aste Nagusia](https://en.wikipedia.org/wiki/Aste_Nagusia), the Great Week.
+
+{{< floated_image src="https://photos.smugmug.com/photos/i-CLdpcr3/0/MgCZqB5LPvJXGPFTjbpgnrMJsdsQrrSZMx5VVH4Gb/L/i-CLdpcr3-L.jpg" float="right" alt="A sign for Aste Nagusia" width="300" height="400" />}}
+
+It lasts nine days, from the first Saturday after the 15th of August, and it is the biggest thing that happens in the city all year. For those nine days the city belongs to the locals: every bar is open, and the restaurants you would have to book a week ahead are packed with them rather than with tourists.
+
+You notice it first on the people. Nearly everyone wears a blue scarf — the *pañoleta*, three points in the corner, in the dark "Bilbao blue". It is a dress code nobody has to explain: if you wear one, you are in.
+
+Then there are the fireworks, every night at 22:30 over the estuary. Somebody in Bilbao told us there was a competition behind them, and there is: the Villa de Bilbao International Fireworks Competition, running since 1981. Seven professional companies take their turn, one each night, flown in from Spain, Germany, Uruguay, Italy and Mexico to compete in front of a jury and about a hundred thousand people on the riverbank. The ninth night is a display only, with nothing at stake.
+
+{{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF/i-Dqs2Nh3/A" caption="Click to play the Aste Nagusia fireworks" thumbnail="https://photos.smugmug.com/photos/i-Dqs2Nh3/0/K6hNn2W3KxdJnVM3fvRztP545gRKWTkhpPfN7frQK/1080x1920/i-Dqs2Nh3-1080x1920.jpg" width="300" height="533" alt="Aste Nagusia fireworks over the estuary" />}}
+
+## Highlights
 
 [Restaurant Yandiola](https://yandiola.com) in the cultural centre
 
