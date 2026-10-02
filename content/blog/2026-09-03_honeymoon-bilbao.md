@@ -29,13 +29,19 @@ Then there are the fireworks, every night at 22:30 over the estuary. Somebody in
 
 {{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF/i-Dqs2Nh3/A" caption="Click to play the Aste Nagusia fireworks" thumbnail="https://photos.smugmug.com/photos/i-Dqs2Nh3/0/K6hNn2W3KxdJnVM3fvRztP545gRKWTkhpPfN7frQK/1080x1920/i-Dqs2Nh3-1080x1920.jpg" width="300" height="533" alt="Aste Nagusia fireworks over the estuary" />}}
 
-## Highlights
+## Culture & architecture
 
-[Restaurant Yandiola](https://yandiola.com) in the cultural centre
+The [Guggenheim museum](https://www.guggenheim-bilbao.eus/en) is a must visit. The architecture is impressive, both inside and outside. Reserve some time for it, so you can see the whole exhibition. It is worth it.
 
-Azkuna Zentroa Bilbao Society and Contemporary Culture Centre
+We loved the [Azkuna Zentroa Bilbao](https://www.azkunazentroa.eus/en/) culture centre, with its interesting museums, restaurants and bars, and a lot to see and discover.
 
-Guggenheim museum
+## Restaurants & bars
+
+[Restaurant Yandiola](https://yandiola.com) in the cultural centre. We ate a nine-course menu, and it was the best restaurant experience we had. Every dish was perfect. Even the smoked squid was amazing.
+
+{{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF/i-sQGDQpd/A" caption="Tuna fish tataki" thumbnail="https://photos.smugmug.com/photos/i-sQGDQpd/0/MGGLC2FcC8HDJKdDTDvbMXLtxKBNJt9mG9hSDhLKV/M/i-sQGDQpd-M.jpg" width="553" height="450" alt="Tuna fish tataki" />}}
+
+
 
 Bascake Bilbao
 
@@ -56,3 +62,7 @@ Euskalduna by Etxanobe, last evening
 Bilbao is very accessible in my opinion. We haven't been to the old town part, but everything was easy to wheel around. The pedestrian ways and the crossings are flat and smooth. The different levels and bridges are the things to think of, because you often have to find an elevator first. The Guggenheim is a good example: outside the museum there are only stairs, and the elevator is a fair way off. The tram is very easy to board and to get off. All metro stations are accessible by an elevator. You can buy a white Barik card at the metro station. With this card you can load money on it and just tap it for every trip.
 
 People generally take care to let wheelchair users access elevators without waiting in line. Priority goes first to wheelchairs, then elderly people, then baby carriages. I love this rule—it should work the same in Norway and Switzerland.
+
+## Verdict
+
+Bilbao is a very nice city. I am quite sure I will come back. Since there are direct flights from Oslo to Bilboa a longer weekend trip is absolutelly possible. 
