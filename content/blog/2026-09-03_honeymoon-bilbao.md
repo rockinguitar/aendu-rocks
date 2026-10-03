@@ -41,9 +41,9 @@ We loved the [Azkuna Zentroa Bilbao](https://www.azkunazentroa.eus/en/) culture 
 
 {{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF/i-sQGDQpd/A" caption="Tuna fish tataki" thumbnail="https://photos.smugmug.com/photos/i-sQGDQpd/0/MGGLC2FcC8HDJKdDTDvbMXLtxKBNJt9mG9hSDhLKV/M/i-sQGDQpd-M.jpg" width="553" height="450" alt="Tuna fish tataki" />}}
 
+If you want to eat real, homemade Basque cheesecake, visit [Bascake Bilbao](https://bascake.es).
 
-
-Bascake Bilbao
+{{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF/i-TBP9BHD/A" caption="Basque cheesecake" thumbnail="https://photos.smugmug.com/photos/i-TBP9BHD/0/NWZMsGz3bSKC4cG2ZZn7qZJfX6DKKzkhhjV3D3Bbr/XL/i-TBP9BHD-XL.jpg" width="576" height="768" alt="Basque cheesecake" />}}
 
 [Restaurante Kondutxo](https://restaurantekondutxo.com) (Vincci hotel), great food and fireworks
 
