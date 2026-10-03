@@ -10,10 +10,9 @@ tags = ["honeymoon", "spain", "bilbao", "vacation"]
 
 ## Arrival and hotel
 
-We had a direct flight from Oslo to Bilbao and landed in the afternoon. The assistance was helpful and nice and they even helped us find a suitable taxi. Already at the airport and in the taxi I realised it is a big advantage to be able to speak some words in Spanish. I am so surprised that many locals in Bilbao don't speak a word of English. 
+We had a direct flight from Oslo to Bilbao and landed in the afternoon. The assistance was helpful and nice, and they even helped us find a suitable taxi. Already at the airport and in the taxi I realised it was a big advantage to be able to speak some words in Spanish. I am so surprised that many locals in Bilbao don't speak a word of English. 
 
-Our hotel [Meliá Bilbao](https://www.melia.com/en/hotels/spain/bilbao/melia-bilbao), close to the tram line and river, was clean and accessible. The only thing we can complain about is the broken shower chair, which got fixed after the second complaint. 
-
+Our hotel [Meliá Bilbao](https://www.melia.com/en/hotels/spain/bilbao/melia-bilbao), close to the tram line and the river, was clean and accessible. The only thing we can complain about is the broken shower chair, which got fixed after the second complaint. 
 
 ## Aste Nagusia
 
@@ -31,13 +30,13 @@ Then there are the fireworks, every night at 22:30 over the estuary. Somebody in
 
 ## Culture & architecture
 
-The [Guggenheim museum](https://www.guggenheim-bilbao.eus/en) is a must visit. The architecture is impressive, both inside and outside. Reserve some time for it, so you can see the whole exhibition. It is worth it.
+The [Guggenheim museum](https://www.guggenheim-bilbao.eus/en) is a must-visit. The architecture is impressive, both inside and outside. Reserve some time for it, so you can see the whole exhibition. It is worth it.
 
 We loved the [Azkuna Zentroa Bilbao](https://www.azkunazentroa.eus/en/) culture centre, with its interesting museums, restaurants and bars, and a lot to see and discover.
 
 ## Restaurants & bars
 
-[Restaurant Yandiola](https://yandiola.com) in the cultural centre. We ate a nine-course menu, and it was the best restaurant experience we had. Every dish was perfect. Even the smoked squid was amazing.
+[Restaurant Yandiola](https://yandiola.com) in the [Azkuna Zentroa](https://www.azkunazentroa.eus/en/). We ate a nine-course menu, and it was the best restaurant experience we had. Every dish was perfect. Even the smoked squid was amazing.
 
 {{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF/i-sQGDQpd/A" caption="Tuna fish tataki" thumbnail="https://photos.smugmug.com/photos/i-sQGDQpd/0/MGGLC2FcC8HDJKdDTDvbMXLtxKBNJt9mG9hSDhLKV/M/i-sQGDQpd-M.jpg" width="553" height="450" alt="Tuna fish tataki" />}}
 
@@ -47,13 +46,13 @@ If you want to eat real, homemade Basque cheesecake, visit [Bascake Bilbao](http
 
 [Restaurante Kondutxo](https://restaurantekondutxo.com) inside the Vincci hotel has a great rooftop bar with a view over the river. We were able to see the fireworks twice during our stay. The service is very nice and the food there is delicious. 
 
-Are you in the mood for incredible oysters? Then you have to visit [El Puertito, oyster bar](https://www.elpuertito.es). The owner is very welcoming and knowledgeable. The music was gentle and I loved the maritime look. They have different types of oysters and they are more than happy to explain the differences. 
+Are you in the mood for incredible oysters? Then you have to visit [El Puertito, oyster bar](https://www.elpuertito.es). The owner is very welcoming and knowledgeable. The music was gentle and I loved the maritime look. They have different types of oysters and are more than happy to explain the differences. 
 
-We have been to several cocktail bars during our stay. Two stood out as the best in my opinion. [La mula de moscú](https://lamulademoscu.com) and [Gin Fizz](https://ginfizzbilbaococktail.com). I loved their style, cocktail and the vibe. Definitely worth checking out. 
+We have been to several cocktail bars during our stay. Two stood out as the best in my opinion. [La mula de moscú](https://lamulademoscu.com) and [Gin Fizz](https://ginfizzbilbaococktail.com). I loved their style, cocktails and the vibe. Definitely worth checking out. 
 
-Are you a coffee, espresso lover like me? Then you have to visit [Nokora Speciality Coffee](https://nokora.coffee). The best espresso I have tasted in Bilbao by far. The owners are really passionate about coffee and it was so nice to nerd about coffee equipment. 
+Are you a coffee and espresso lover like me? Then you have to visit [Nokora Speciality Coffee](https://nokora.coffee). The best espresso I have tasted in Bilbao by far. The owners are really passionate about coffee and it was so nice to nerd about coffee equipment. 
 
-The last evening we had a table at [Euskalduna by Etxanobe](https://euskaldunabyetxanobe.com). The restaurant is hidden inside the [Palacio Euskalduna](https://www.euskalduna.eus/en/) concert hall, on the 4th or 5th floor. They served us a little soup as an amuse-bouche. As starter I had sardines, I loved the umami and the strong flavour. For the main course I ate entrecote with grilled vegetables and delicious fries. 
+The last evening we had a table at [Euskalduna by Etxanobe](https://euskaldunabyetxanobe.com). The restaurant is hidden inside the [Palacio Euskalduna](https://www.euskalduna.eus/en/) concert hall, on the 4th or 5th floor. They served us a little soup as an amuse-bouche. As a starter I had sardines, I loved the umami and the strong flavour. For the main course I ate entrecôte with grilled vegetables and delicious fries. 
 
 {{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF" caption="Click to view the Bilbao honeymoon photo &amp; video gallery" thumbnail="https://photos.smugmug.com/photos/i-Q92LK4q/0/K3KTd2dhzvTg3bP5VFj7jgtF9fVvKMZnkdzHKbWLD/M/i-Q92LK4q-M.jpg" width="600" height="450" alt="Bilbao honeymoon photo gallery" />}}
 
@@ -61,8 +60,8 @@ The last evening we had a table at [Euskalduna by Etxanobe](https://euskaldunaby
 
 Bilbao is very accessible in my opinion. We haven't been to the old town part, but everything was easy to wheel around. The pedestrian ways and the crossings are flat and smooth. The different levels and bridges are the things to think of, because you often have to find an elevator first. The Guggenheim is a good example: outside the museum there are only stairs, and the elevator is a fair way off. The tram is very easy to board and to get off. All metro stations are accessible by an elevator. You can buy a white Barik card at the metro station. With this card you can load money on it and just tap it for every trip.
 
-People generally take care to let wheelchair users access elevators without waiting in line. Priority goes first to wheelchairs, then elderly people, then baby carriages. I love this rule—it should work the same in Norway and Switzerland.
+People generally take care to let wheelchair users access elevators without waiting in line. Priority goes first to wheelchairs, then elderly people, then baby carriages. I love this rule — it should work the same in Norway and Switzerland.
 
 ## Verdict
 
-Bilbao is a very nice city. I am quite sure I will come back. Since there are direct flights from Oslo to Bilbao a longer weekend trip is absolutely possible. 
+Bilbao is a very nice city. I am quite sure I will come back. Since there are direct flights from Oslo to Bilbao, a longer weekend trip is absolutely possible. 
