@@ -12,7 +12,7 @@ tags = ["honeymoon", "spain", "bilbao", "vacation"]
 
 We had a direct flight from Oslo to Bilbao and landed in the afternoon. The assistance was helpful and nice, and they even helped us find a suitable taxi. Already at the airport and in the taxi I realised it was a big advantage to be able to speak some words in Spanish. I am so surprised that many locals in Bilbao don't speak a word of English. 
 
-Our hotel [Meliá Bilbao](https://www.melia.com/en/hotels/spain/bilbao/melia-bilbao), close to the tram line and the river, was clean and accessible. The only thing we can complain about is the broken shower chair, which got fixed after the second complaint. 
+Our hotel Meliá Bilbao, close to the tram line and the river, was clean and accessible. The only thing we can complain about is the broken shower chair, which got fixed after the second complaint. 
 
 ## Aste Nagusia
 
