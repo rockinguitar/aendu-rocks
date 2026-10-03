@@ -4,7 +4,7 @@ description = "Honeymoon in Bilbao during Aste Nagusia: fireworks over the estua
 date = "2026-09-03"
 
 [taxonomies]
-tags = ["honeymoon", "spain", "bilbao", "vacation"]
+tags = ["honeymoon", "spain", "bilbao", "holiday"]
 
 +++
 
