@@ -1,6 +1,6 @@
 +++
 title = "Honeymoon in Bilbao"
-description = "Enjoying our honeymoon in Bilbao, Spain"
+description = "Honeymoon in Bilbao during Aste Nagusia: fireworks over the estuary, a nine-course menu, and a city that turned out to be wonderfully accessible"
 date = "2026-09-03"
 
 [taxonomies]
