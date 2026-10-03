@@ -1,0 +1,16 @@
+version: 2
+updates:
+  # Keeps the SHA pins in .github/workflows/ current. Without this they rot.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+      timezone: "Etc/UTC"
+    commit-message:
+      prefix: "ci"
+    groups:
+      actions:
+        patterns:
+          - "*"
