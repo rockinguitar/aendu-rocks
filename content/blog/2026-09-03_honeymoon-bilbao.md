@@ -45,15 +45,15 @@ If you want to eat real, homemade Basque cheesecake, visit [Bascake Bilbao](http
 
 {{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF/i-TBP9BHD/A" caption="Basque cheesecake" thumbnail="https://photos.smugmug.com/photos/i-TBP9BHD/0/NWZMsGz3bSKC4cG2ZZn7qZJfX6DKKzkhhjV3D3Bbr/XL/i-TBP9BHD-XL.jpg" width="576" height="768" alt="Basque cheesecake" />}}
 
-[Restaurante Kondutxo](https://restaurantekondutxo.com) inside the Vincci hotel has a great rooftopbar with a view over the river. We were able to see the fireworks twice during our stay. The service is very nice and the food there is delicious. 
+[Restaurante Kondutxo](https://restaurantekondutxo.com) inside the Vincci hotel has a great rooftop bar with a view over the river. We were able to see the fireworks twice during our stay. The service is very nice and the food there is delicious. 
 
-Are you in the mood for incredible oysters? Then you have to visiit [El Puertito, oyster bar](https://www.elpuertito.es). The owner is very welcoming and knowledgable. The music was gentle and I loved the maritime look. They have different types of oysters and they are more than happy to explain the differences. 
+Are you in the mood for incredible oysters? Then you have to visit [El Puertito, oyster bar](https://www.elpuertito.es). The owner is very welcoming and knowledgeable. The music was gentle and I loved the maritime look. They have different types of oysters and they are more than happy to explain the differences. 
 
-We have been to several cocktail bars during our stay. Two were standing out to be the best in my opinion. [La mula de moscú](https://lamulademoscu.com) and [Gin Fizz](https://ginfizzbilbaococktail.com). I love their style, cocktail and the vibe. Definitely worth to check out. 
+We have been to several cocktail bars during our stay. Two stood out as the best in my opinion. [La mula de moscú](https://lamulademoscu.com) and [Gin Fizz](https://ginfizzbilbaococktail.com). I loved their style, cocktail and the vibe. Definitely worth checking out. 
 
 Are you a coffee, espresso lover like me? Then you have to visit [Nokora Speciality Coffee](https://nokora.coffee). The best espresso I have tasted in Bilbao by far. The owners are really passionate about coffee and it was so nice to nerd about coffee equipment. 
 
-The last evening we had a table at [Euskalduna by Etxanobe](https://euskaldunabyetxanobe.com). The restaurant is hidden inside the [Palacio Euskalduna](https://www.euskalduna.eus/en/) concert hall, on the 4th or 5th floor. They served us a little soup as amouse bouche. As starter I had sardines, I love the umami and the strong falvour. For the main course I ate entrecote with grilled vegetables and delicious fries. 
+The last evening we had a table at [Euskalduna by Etxanobe](https://euskaldunabyetxanobe.com). The restaurant is hidden inside the [Palacio Euskalduna](https://www.euskalduna.eus/en/) concert hall, on the 4th or 5th floor. They served us a little soup as an amuse-bouche. As starter I had sardines, I loved the umami and the strong flavour. For the main course I ate entrecote with grilled vegetables and delicious fries. 
 
 {{< smugmug path="Events/2026/Bilbao-2026/n-ng9zBF" caption="Click to view the Bilbao honeymoon photo &amp; video gallery" thumbnail="https://photos.smugmug.com/photos/i-Q92LK4q/0/K3KTd2dhzvTg3bP5VFj7jgtF9fVvKMZnkdzHKbWLD/M/i-Q92LK4q-M.jpg" width="600" height="450" alt="Bilbao honeymoon photo gallery" />}}
 
@@ -65,4 +65,4 @@ People generally take care to let wheelchair users access elevators without wait
 
 ## Verdict
 
-Bilbao is a very nice city. I am quite sure I will come back. Since there are direct flights from Oslo to Bilboa a longer weekend trip is absolutelly possible. 
+Bilbao is a very nice city. I am quite sure I will come back. Since there are direct flights from Oslo to Bilbao a longer weekend trip is absolutely possible. 
